@@ -4,18 +4,11 @@ title: About Me
 permalink: /about/
 ---
 
-## Who I am
+I have been an IT Pro for 12 years, and a coder and sysadmin for over 20 years. My parents bought an i386, running Windows 95, in the late nineties. It came with a collection of hundreds of simple games. The concept of creating digital worlds and objects that could “think” and move captivated me. I begged my parents for a book on programming, and I wrote my first “hello world” program in Java at age 12. When we upgraded our PC a few years later, I built a Linux-based webserver on the old one. I learned to code on that old fossil in C, C++, JavaScript, Perl and PHP. I began my IT Pro career in 2006 while studying Computer Science. In that role, I used my passion for coding and efficiency to enable a team of two sysadmins to maintain a global IT environment of over 400 servers and 5,000 PCs.
 
-I live and work in New Hampshire, the best state in the union. I am a follower of Jesus Christ, the husband to a wonderful woman, the father of two cute and crazy kids, and a hopeless geek. 
+Currently I work as a senior sysadmin and IT manager for a medical manufacturing company. My team provides a secure, reliable server and client platform based on a VMware and Microsoft stack. 
+I live in New Hampshire with my two adorable children and beautiful wife. I love to hike, Crossfit, play guitar, and read. My current interests include PowerShell, Python, infrastructure automation, robotics, gardening, and keeping my chickens alive.
 
-## What I love
+### About The Curious Sysadmin
 
-I love to learn, code, hike, workout, and drink (good) coffee. I love to solve sticky problems with elegant solutions. I love to tear things apart to discover how they work. Unfortunately, I'm not as good at putting things back together.
-
-Automation, cloud technology, information security (especially pentesting and forensics), latte-making, guitar, and gardening are some of my current interests.
-
-## What I do 
-
-At work, I lead a team of IT engineers that designs, builds and operates the server and PC infrastructure for a medical manufacturing company. 
-
-At home, I am often trying to build simple furniture, working on home improvements, or protecting my chickens from frigid temperatures and hungry predators. So far, Nature and I are tied, 4 to 4. 
+The Curious Sysadmin deconstructs excellence into practical tools, techniques and principles. It also serves as a journal of my projects and eclectic interests.
