@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "How to troubleshoot effectively"
+date:   2018-01-28 22:27:58 -0500
+comments: yes
+categories: jekyll update
+---
 This post explores the fundamental concepts of troubleshooting in an IT context. Troubleshooting is an essential skill for every sysadmin. Software breaks. Hardware fails. When it does, your customers rely on you to fix it. Watching an experienced sysadmin troubleshoot is almost magical. Given a few slivers of information, he makes a snap judgement about the root cause--and is often right. This might lead you to believe that troubleshooting ability is an innate--even mystical--ability, not a teachable skill. Wrong!
 
 You can learn to troubleshoot any system. Given an effective method, sufficient information, and appropriate tools, you can diagnose any problem. With practice you will develop the same mystical ability, called expert intuition, that earns you guru status with your customers and coworkers. #B1

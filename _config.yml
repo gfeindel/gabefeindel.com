@@ -23,6 +23,10 @@ url: "http://www.gabefeindel.com" # the base hostname & protocol for your site, 
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
+# Disqus comments
+disqus:
+  shortname: gabefeindel-com
+ 
 # Build settings
 markdown: kramdown
 theme: minima
