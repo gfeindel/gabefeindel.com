@@ -8,9 +8,7 @@ I provide consulting services to small and medium businesses on automation and i
 
 ### Automation
 
-If your IT department is like most, you spend most of your time reacting to problems. You want to experiment and innovate, but you just can't find the time. Automation helps you to escape this cycle. 
-
-According to [Limoncelli](https://everythingsysadmin.com/), you can reap huge benefits by automating a few common and time-consuming tasks: PC provisioning, B, C. I can help you design the processes, build the tools, and train your staff.
+If your IT department is like most, you spend most of your time reacting to problems. You want to experiment and innovate, but you just can't find the time. Automation helps you to escape this cycle. I can help you design the processes, build the tools, and train your staff.
 
 ### Information Security
 
