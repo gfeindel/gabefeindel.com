@@ -13,7 +13,7 @@ In the early years of my career, I made a "harmless" change at the end of the da
 
 At another job, I was tasked with applying a hardened security policy to our domain controllers. I carefully scrutinized each setting, tested on a single server, and when I was satisfied, applied to the rest. A few smoke tests showed everything was working. Until about 9 PM that night, when my manager called to tell me that Exchange was broken.
 
-At that same job, I learned that a history of group policy misshaps had evolved into an office meme. Anytime something broke--even if it was the coffee maker--you could be sure that someone nearby would shortly short, "It's a GPO!"
+At that same job, I learned that a history of group policy misshaps had evolved into an office meme. Anytime something broke--even if it was the coffee maker--you could be sure that someone nearby would shortly shout, "It's a GPO!"
 
 ## The problem with group policy
 
@@ -36,20 +36,20 @@ I use Git to manage all my scripts and definition files already, so it is natura
 
 ### Definition files
 
-Here's what it gets interesting. Set-GPRegistryValue manipulates policy settings by referencing the registry directly. It requires at least the guid of the policy, the registry path, the value name, value type, and value data. Here's a minimum viable definition file:
+Here's where it gets interesting. Set-GPRegistryValue manipulates policy settings by referencing the registry directly. It requires at least the guid of the policy, the registry path, the value name, value type, and value data. Here's a minimum viable definition file:
 
 {% highlight json %}
 {
 	"guid" = "{<guid>}"
-	"computersetting" = [
+	"computersetting" : [
 		{
-			"key" = "registry_key"
-			"valuename" = "value name"
-			"value" = "value data"
-			"type" = "DWORD|REGSZ|etc"
+			"key" : "registry_key"
+			"valuename" : "value name"
+			"value" : "value data"
+			"type" : "DWORD|REGSZ|etc"
 		}
 	]
-	"usersetting" = []
+	"usersetting" : []
 }
 {% endhighlight %}
 
