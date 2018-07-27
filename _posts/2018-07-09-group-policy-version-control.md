@@ -2,18 +2,11 @@
 layout: post
 title:  "Group Policy As Code"
 categories: learning, infrastructure as code
+comments: true
 ---
-While working on a domain migration project this afternoon, I discovered the PowerShell command Set-GPRegistryValue. That sparked the idea for a config management tool for group policy that uses Git, JSON and PowerShell. Eventually I'll throw some proof of concept code up on Github to prove if it is viable or not. Microsoft offers group policy version control in the MDOP suite, but MDOP requires an Enterprise Agreement.
+While working on a domain migration project this afternoon, I discovered the PowerShell command `Set-GPRegistryValue`. That sparked the idea for a config management tool for group policy that uses Git, JSON and PowerShell. Eventually I'll throw some proof of concept code up on Github to prove if it is viable or not. Microsoft offers group policy version control in the MDOP suite, but MDOP requires an Enterprise Agreement.
 
 Why a config management tool for group policy? Because it is easy to mess up! Have you ever broken something in group policy? I have...
-
-## Group policy: A confession
-
-In the early years of my career, I made a "harmless" change at the end of the day (noob!) to implement a custom UI shell on cafeteria kiosks. On the way to work the next morning, I received a frantic phone call from a coworker: "No one can sign in! They just get a blank, blue screen!"
-
-At another job, I was tasked with applying a hardened security policy to our domain controllers. I carefully scrutinized each setting, tested on a single server, and when I was satisfied, applied to the rest. A few smoke tests showed everything was working. Until about 9 PM that night, when my manager called to tell me that Exchange was broken.
-
-At that same job, I learned that a history of group policy misshaps had evolved into an office meme. Anytime something broke--even if it was the coffee maker--you could be sure that someone nearby would shortly shout, "It's a GPO!"
 
 ## The problem with group policy
 
@@ -26,9 +19,9 @@ Out of box, group policy lacks version control and configuration management func
 
 ## A better way to manage group policy
 
-I am captivated by the concept of "infrastructure as code." The main idea is to apply the same principles, tools and processes to infrastructure configuration that developers use for their code. Instead of configuring snowflake servers via the UI, you create definition files and scripts, store them in your version control system, and run them through a battery of automated tests, before deploying to production. If you'd like to learn more, check out Kief Morris' book on the topic.
+The concept of "infrastructure as code" captivates me. The main idea is to apply the same principles, tools and processes to infrastructure management that developers use for their code. Instead of configuring snowflake servers via the UI, you create definition files and scripts, store them in your version control system, and run them through a battery of automated tests, before deploying to production. If you'd like to learn more, check out Kief Morris' book on the topic.
 
-The basic tool chain for group policy config management includes a VCS, definition files, Powershell. I use Git for my VCS. For the definition file, you could use YAML, JSON or any other serialization language. Since Powershell has native support for JSON, that is what I will use. Powershell will read the definition files and convert them to group policies. Eventually, I could imagine a CI pipeline that automatically tests these definitions on a virtual machine to ensure correctness.
+The basic tool chain for this hypothetical "group policy as code" tool includes a VCS, definition files, and Powershell. I use Git for my VCS. YAML, JSON, or any other serialization language would work for the definition file. Since Powershell has native support for JSON, that is what I plan to use. Powershell will read the definition files and convert them to group policies. Eventually, I could imagine a CI pipeline that automatically tests these definitions on a virtual machine to ensure correctness.
 
 ### Version Control: Git
 
@@ -73,4 +66,5 @@ A CI tool like Jenkins, Team City or Visual Studios Team Foundation Server could
 
 ## Summary
 
-Group policy is easy to break. But you can use Git, definition files and Powershell to treat group policies as code, version them, and rigorously test your changes before deploying them to production.
+Group policy is easy to break. Maybe "group policy as code" is one way to improve the reliability and quality of group policy changes. How do you manage your group policy? Leave your thoughts and comments below!
+ 
