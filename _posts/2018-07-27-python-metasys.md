@@ -1,6 +1,6 @@
 ---
 title: "Turning the lights on with Python"
-categories: python, coding
+categories: python coding
 comments: true
 layout: post
 ---

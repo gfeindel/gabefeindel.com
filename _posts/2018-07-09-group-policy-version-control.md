@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Group Policy As Code"
-categories: learning, infrastructure as code
+categories: learning infrastructure as code
 comments: true
 ---
 While working on a domain migration project this afternoon, I discovered the PowerShell command `Set-GPRegistryValue`. That sparked the idea for a config management tool for group policy that uses Git, JSON and PowerShell. Eventually I'll throw some proof of concept code up on Github to prove if it is viable or not. Microsoft offers group policy version control in the MDOP suite, but MDOP requires an Enterprise Agreement.
