@@ -4,17 +4,17 @@ title: Resume
 permalink: /resume/
 ---
 
-I love using technology to help others succeed. My love for people, passion for learning, and experience in IT Operations and software development uniquely equip me to find creative technology solutions that help my clients realize their potential. 
+I thrive on using technology to help others succeed. My love for people, passion for learning, and experience in IT Operations and software development uniquely equip me to create technology solutions that help others realize their potential. 
 ## Skills
 
 ### Soft Skills
   
-  - Culturally aware. I have much room to grow, but my experience working with global teams has taught me a great deal about the differences in cultures and how they affect communication, disagreement, decision-making, and more.
-  - Writing. As Jeff Bezos says, writing is an essential skill for any leader. I'd like to think my writing is well above average, and I leverage that skill to inspire, persuade and educate others. 
-  - Team player. I love to helps others grow through mentoring and coaching. I foster teamwork and promote open, honest dialog. 
-  - Client-focused. The IT profession is fundamentally a service provider. I am committed to understanding the client's needs and finding the right solution.
-  - Leadership. The best way to lead is by example. I have experience leading small teams both at work and church, which involves casting vision, shaping culture, and driving results.
-  - Rapid learner. I am an insatiable student, always seeking to learn new things  and improve myself. I'm a big fan of Tim Ferriss and find his DiSSS model very useful for effective skill acquisition.
+  - Cultural awareness. Most of my career has been with global teams. This experience has taught me much about how cultural differences shape communication, disagreement, decision-making, and more.
+  - Writing. George Orwell said, "if people cannot write well, they cannot think well." Clear writing requires clear thinking. I'd like to think my writing is well above average. I write to inspire, persuade and educate others. I created this website, in part, to sharpen my writing skills. 
+  - Team player. Effective teams undergird all successful companies. I love to mentor and coach others. In fact, I think coaching is my primary leadership style. I foster teamwork and promote trust, accountability, client-focus, and results orientation.
+  - Client-focused. The IT Pro is a consultant, not a waiter. I always seek to understand the client's need, the problem to solve, before suggesting a solution. 
+  - Leadership. I have never been an executive or business leader, but I have led small teams both at work and church, positions which involved casting vision, shaping culture, and driving results. The topic of leadership fascinates me, and I enjoy reading about it and learning from other experienced leaders. 
+  - Rapid learner. I am an insatiable student, always seeking to learn new things, improve myself, and share my learnings with others. 
  
 ### Hard Skills
 
