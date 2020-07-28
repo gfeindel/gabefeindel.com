@@ -30,4 +30,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 
 # Added at 2018-05-05 14:24:01 -0400 by gfeindel:
-gem "json", "~> 2.2"
+gem "json", "~> 2.3"
