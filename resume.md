@@ -4,7 +4,8 @@ title: Resume
 permalink: /resume/
 ---
 
-I thrive on using technology to help others succeed. My love for people, passion for learning, and experience in IT Operations and software development uniquely equip me to create technology solutions that help others realize their potential. 
+I thrive on using technology to help others succeed. My love for people, passion for learning, and experience in IT and software development uniquely equip me to create technology solutions that help others realize their potential. 
+
 ## Skills
 
 ### Soft Skills
